@@ -33,3 +33,19 @@ unity本体を閉じて、プロジェクトフォルダーをコピーかZIPす
 
 # やったねたえちゃん これで改変しないといけないね！
 
+## SDK内変換ツール
+新SDKではDynamicBoneが入ってるアバターは移行の警告が追加されています。  
+![warning](img/db_default.png)
+
+オリジナルprefab（比較・引き戻し用）の変更を回避するため、続きに個人的な変換作業を書き残します。
+
+（右メニュー操作イメージ）
+
+一回ヒエラルキーのアバターを右クリックして「duplicate」を選択します（もしくはctrl+D）で複製し、複製されたものをまた右クリックして「unpack prefab completely」にクリック。  
+これでアイコンが灰色になったオブジェクト（アバター）を編集しても、project内にあるオリジナルprefabには変更が反映されません。  
+  
+次にprefab解除されたに選択した状態で上部メニューVRChat SDK > Utilites > Convert DnyamicBone to PhysBones を選択します。  
+警告が出るので、OKをクリックすれば、全体のDBはPBに置き換われます。
+
+個人的に使用していた、Quest対応の[VRCQuestTools](https://booth.pm/ja/items/2436054)をPBに変換したアバターは、クエスト変換掛けてもPBのコンポーネントはDBみたいに削除されず、そのままquest向けにアップロードできます。（ただしPBコンポーネントのアバターランクに要注意）
+ref:[quest PB 制限](https://twitter.com/rapt_vrc/status/1516998812401037312?s=21&t=Udqwy0K_p3xsod2VdPEaMA)
