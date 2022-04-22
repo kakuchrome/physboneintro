@@ -64,7 +64,7 @@ ref:[quest PB 制限](https://twitter.com/rapt_vrc/status/1516998812401037312?s=
 ![PB](img/PB.png)
 掴める条件は、ColLison > Radius の数値は０より大きいな場合しか掴めません  
 Grab & Pose の部分はオブジェクトが掴めるか・固定できるか動かを設定します、 Max Strechを数値を設定することで、ボーンを通常より掴んで伸ばせることができます。    
-![bironn](img/bironn.png)
+![bironn](img/biron.png)
 これで伸ばせる やったね
   
 Optionsのparameterを一意の名称を追加すること、掴んでるか{hoge}_IsGrabbed（bool) ・ 角度{hoge}_Angle (Float) ・ 伸ばし程度 {hoge}_Strech (Float) の三つのパラメータを使用することができます。  
