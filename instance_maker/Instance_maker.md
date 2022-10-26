@@ -25,3 +25,8 @@ Invite+以下とPublicのインスタンスはUnlockedだけ
 初期ではインスタンス主のフレンドしか入れないLocked状態になります、Link横のボタンでインスタンスURLで生成できます
 ![](img/4.jpg)
 フレンドでなくともリンクをしている人であればだれでも入れる状態にしたいなら、Get Unlocked Linkをクリックすれば生成されます。
+
+
+## ちなみに
+[Twitter](https://twitter.com/Puchiryuu_VRC/status/1573521199942225920)
+VRchat起動時に入れるワールドも起動オプションなどで起動可能（未検証）
